@@ -42,7 +42,7 @@
 								  @if($comment->user_id==0)
 								  <footer class="blockquote-footer">Admin</footer>
 								  @else
-								  <footer class="blockquote-footer">{{$comment->user->name}}</footer>
+								  <footer class="blockquote-footer">{{$comment->user_id}}</footer>
 								  @endif
 								</blockquote>
 								<hr/>

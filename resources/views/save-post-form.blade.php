@@ -48,7 +48,7 @@
                           </td>
                       </tr>
                       <tr>
-                          <th>Tags</th>
+                          <th>Tags<span class="text-danger">*</span></th>
                           <td>
                             <textarea class="form-control" name="tags"></textarea>
                           </td>
